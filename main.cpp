@@ -199,7 +199,8 @@ class Lista{
 			}
 			return resp;
 		}
-
+		
+		/* ------------------------------------------------------------ */
 		int remove(T dato){
 			NodoLista<T> *p, *ant = NULL;
 			int resp = 1;
@@ -227,6 +228,7 @@ class Lista{
 			}
 			return resp;
 		}
+		/* ------------------------------------------------------------ */
 
 		friend ostream& operator << <>(ostream &,const Lista<T> &);
 };
